@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
   res.send(
-    "hi,iam sneha,Go-Ac-Quiz-Microservice..Thought of the day - The only failure is not trying..",
+    "Hello GA Team,Go-Ac-Quiz-Microservice..Thought of the day - The only failure is not trying..",
   );
 });
 
