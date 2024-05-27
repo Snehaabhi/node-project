@@ -31,7 +31,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
            /usr/local/bin/pm2 kill
-           /home/ubuntu/bedemo/ga-quiz
+           /home/ubuntu/ga-quiz
             sudo rm -rf *
             
       - name: Deploy to Server
