@@ -19,7 +19,7 @@ jobs:
 
 
       - name: Install dependencies and run npm command
-        working-directory: go-quiz-services
+        working-directory: ga-quiz
         run: |
           npm i
 
